@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+.App{
+  background: #1B98F5;
+    min-height: 100vh;
+    color: white;
+    padding-top: 130px;
+    padding-bottom: 70px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* width: 154px;
+height: 230px; */
+.makeStyles-root-1 {
+ 
+  background-color: #03203C!important;
 }
+.MuiPaginationItem-root {
+  color: #060606!important;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  font-weight: 600!important;
+ 
+}
+@media(max-width:700px){
+    .App{
+        padding-top: 95px;
+    }
+}
+*{
+scroll-behavior: smooth;
+}
+.pageTitle {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2vw;
+    padding: 4px;
+    border-radius: 50px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #fff;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  @media (max-width: 1000px) {
+    .pageTitle {
+      font-size: 6.4vw;
+    }
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
